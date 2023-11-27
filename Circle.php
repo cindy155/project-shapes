@@ -6,7 +6,7 @@ class Circle extends Shape{
         $this->radio=$r;
     }
     public function calcularArea(){
-        return 3.14*$this->radio*$this->radio;
+        return pi()*$this->radio*$this->radio;
     }
 } 
 ?>
